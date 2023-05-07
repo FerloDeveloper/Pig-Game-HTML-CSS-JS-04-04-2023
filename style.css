@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 214, 214);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 100px; */
+}
+
+h1 {
+  margin: 0px 0px 30px 0px;
+}
+
+.pig {
+  width: 60px;
+  margin: 10px 0px 0px 0px;
+  border: 1px solid transparent;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+
+.pig:hover {
+  border: 1px solid yellow;
+  background-color: yellow;
+  border-radius: 30px;
+}
+
+.oink {
+  margin-top: 150px;
+  font-size: 100px;
+}
+
+.btn {
+  padding: 10px 6px;
+  background-color: rgb(255, 44, 213);
+  border: none;
+  border-radius: 30px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.bg-green {
+  background-color: rgb(125, 255, 125);
+}
+
+.bg-blue {
+  background-color: rgb(55, 148, 255);
+  color: white;
+}
+
+.btn-bottom {
+  margin: -85px 0px 0px 0px;
+  z-index: 50;
+}
+
+.newgame {
+  margin: 20px;
+  z-index: 50;
+}
+
+.show-number {
+  margin: 50px 0px -195px 0px;
+  z-index: 50;
+  font-size: 35px;
+  background-color: rgb(227, 227, 2);
+  border-radius: 100px;
+  padding: 10px 20px;
+  /* border: 3px solid rgb(255, 153, 0); */
+}
+
+.field {
+  display: flex;
+  justify-content: center;
+}
+
+.player1-field {
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.player2-field {
+  background-color: rgb(0, 0, 0);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: white;
+}
+
+.player1-field,
+.player2-field {
+  width: 550px;
+  height: 400px;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.totalscore-player1,
+.totalscore-player2 {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.bg-current-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 30px;
+  border: 2px solid black;
+  color: black;
+}
+
+.color-white {
+  color: white;
+  border: 2px solid white;
+}
+
+.current {
+  margin-bottom: 5px;
+}
+
+.icon {
+  font-size: 40px;
+  margin: 20px;
+}
+
+.remove {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* --- */
